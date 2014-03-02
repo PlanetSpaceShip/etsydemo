@@ -8,8 +8,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
-gem 'bootstrap-sass', '~> 3.1.1'
-gem "paperclip", "~> 4.1"
+gem 'bootstrap-sass', '~> 3.0.3.0'
+gem "paperclip", "~> 3.0"
 
 group :production do
   gem 'pg'
@@ -23,6 +23,7 @@ end
 group :doc do
   gem 'sdoc', require: false
 end
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
