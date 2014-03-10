@@ -32,7 +32,7 @@ end
     Stripe.api_key = ENV["STRIPE_API_KEY"]
     token = params[:stripeToken]
 
- begin
+  begin
       charge = Stripe::Charge.create(
         :amount => (@listing.price * 100).floor,
         :currency => "usd",
